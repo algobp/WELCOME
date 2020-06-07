@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+ 
+  margin:0;
+  padding:0;
+  background: #48C9B0 ;
+  animation: bgcolor infinite 20s;
+}
+@keyframes bgcolor{
+  40%{
+    background:#F1948A; 
+  
+  }
+   60%{
+    background: #BB8FCE ;
+  
+  }
+   80%{
+    background:#FDEBD0; 
+  
+  }
+  
+
+}
+
+h1{
+  color:white;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 400%
+}
+
+p{
+  color:white;
+	word-spacing: 10px;
+	font-size:400%;
+	font-family: 'Permanent Marker', cursive;
+
+}
+.pic1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
